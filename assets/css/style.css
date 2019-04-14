@@ -70,7 +70,7 @@ body{
   border: solid 2px #dddddd;
 }
 
-.container h1{
+.container h2{
   padding-left: 40px;
   color: #4aaaa5;
 }
@@ -79,13 +79,20 @@ body{
 
 /* Style inputs */
 input[type=text], input[type=email], select, textarea {
-  width: 100%;
+  width: 80%;
+  display: block;
   padding: 12px;
   padding-left: 12px;
   border: 1px solid #ccc;
   margin-top: 6px;
   margin-bottom: 16px;
+  margin-left: 40px;
   resize: vertical;
+}
+
+label{
+  margin-left: 40px;
+  color: #777777;
 }
 
 input[type=submit] {
@@ -93,6 +100,8 @@ input[type=submit] {
   color: white;
   padding: 12px 20px;
   border: none;
+  margin-left: 40px;
+  margin-bottom: 40px;
   cursor: pointer;
 }
 
