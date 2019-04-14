@@ -1,7 +1,11 @@
-
+* {
+  box-sizing: border-box;
+ }
 body{
   background-image: url("../images/background.png");
   margin: 0;
+  min-height: calc(100vh - 40px);
+  height:100%
 }
 
 /* Style Header */
@@ -14,6 +18,7 @@ body{
   padding-left: 10%;
   padding-right: 10%;
   margin-bottom: 0;
+  border-bottom: solid 1px #dddddd;
  }
 
 /* Style the links inside the navigation bar */
@@ -21,7 +26,7 @@ body{
   float: left;
   color: #777777;
   text-align: center;
-  padding: 0 40px;
+  padding: 0 20px;
   text-decoration: none;
   height: 60px;
   line-height: 60px;
@@ -67,11 +72,20 @@ body{
   margin-right: 10%;
   margin-top: 40px;
   background: white;
-  border: solid 2px #dddddd;
+  border: solid 1px #dddddd;
+  margin-bottom: 20px;
+  
+}
+
+.container img{
+  padding-left: 40px;
 }
 
 .container h2{
-  padding-left: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-bottom: 20px;
+  border-bottom: solid 2px #dddddd;
   color: #4aaaa5;
 }
 
@@ -107,6 +121,20 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
+}
+
+/* Style Footer */
+
+footer{
+  background-color: #666666;
+  text-align: center;
+  border-top: solid 3px #4aaaa5;
+  width: 100%;
+  clear: both;
+  position: relative;
+  margin-top:30px;
+  height: 40px;
+  line-height: 40px;
 }
   
   
