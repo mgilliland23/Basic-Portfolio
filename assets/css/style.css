@@ -1,4 +1,8 @@
 
+body{
+  background-image: url("../images/background.png");
+  margin: 0;
+}
 
 /* Style Header */
 
@@ -7,8 +11,9 @@
   background-color:white;
   overflow: hidden;
   height: 60px;
-  margin-left: 10%;
-  margin-right: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 0;
  }
 
 /* Style the links inside the navigation bar */
@@ -23,8 +28,8 @@
   
 }
 
-/* Float the logo (my name) to the left */
-.logo{
+/* Float my name to the left */
+.myName{
   float:left;
   background-color: #4aaaa5;
   color: white;
@@ -33,6 +38,7 @@
   padding: 0 40px;
   font-size: 200%;
   height: 60px;
+  
 }
 
 /* Float the link section to the right */
@@ -55,12 +61,27 @@
   color: white;
 }
 
+/*Style container that the sites content lies in*/
+.container{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 40px;
+  background: white;
+  border: solid 2px #dddddd;
+}
+
+.container h1{
+  padding-left: 40px;
+  color: #4aaaa5;
+}
+
 
 
 /* Style inputs */
 input[type=text], input[type=email], select, textarea {
   width: 100%;
   padding: 12px;
+  padding-left: 12px;
   border: 1px solid #ccc;
   margin-top: 6px;
   margin-bottom: 16px;
