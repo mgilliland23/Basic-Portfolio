@@ -53,6 +53,18 @@ body{
   
 }
 
+/* Align profile pic with heading */
+#profileImg{
+  padding-left: 40px;
+  float: left;
+  padding-right: 20px;
+}
+
+.container p{
+  padding-left: 40px;
+  padding-right: 40px;
+} 
+
 
 
 /* Change the color of links on hover */
@@ -75,6 +87,7 @@ body{
   background: white;
   border: solid 1px #dddddd;
   margin-bottom: 20px;
+  padding-bottom: 40px;
   overflow: hidden;
 }
 
