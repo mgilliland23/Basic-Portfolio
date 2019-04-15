@@ -8,9 +8,16 @@ body{
   height:100%;
 }
 
-/* Style Header */
+h1, h2{
+  font-family: "Georgia", Times, Times New Roman, serif;
+}
 
-/* Add a black background color to the top navigation */
+a, p{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+/* Style Header */
 .header {
   background-color:white;
   overflow: hidden;
@@ -19,9 +26,10 @@ body{
   padding-right: 10%;
   margin-bottom: 0;
   border-bottom: solid 1px #dddddd;
+  
  }
 
-/* Style the links inside the navigation bar */
+/* Style the links inside the header */
 .header a {
   float: left;
   color: #777777;
@@ -73,9 +81,10 @@ body{
   background: white;
   border: solid 1px #dddddd;
   overflow: hidden;
+  /* Set minimum height of the content wrapper so the footer is pushed to bottom
+     of the page. Navigation Header is 60 pixels. Content wrapper has top and bottom margin
+     of 40 pixels = 180 pixels total */
   min-height: calc(100vh - 180px);
-
-
 }
 
 /* Style the heading inside the container */
