@@ -24,12 +24,13 @@ a, p, label{
   background-color:white;
   overflow: hidden;
   height: 60px;
-  padding-left: 10%;
-  padding-right: 10%;
   margin-bottom: 0;
   border-bottom: solid 1px #dddddd;
-  
+  width: 960px;
+  margin: 0 auto; 
  }
+
+ 
 
 /* Style the links inside the header */
 .header a {
@@ -70,10 +71,12 @@ a, p, label{
 
 /*Style container that the sites content lies in*/
 .content{
-  margin-left: 10%;
+  margin: 40px auto;
+  /*margin-left: 10%;
   margin-right: 10%;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 40px; */
+  width: 960px;
   background: white;
   border: solid 1px #dddddd;
   overflow: hidden;
