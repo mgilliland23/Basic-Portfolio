@@ -22,15 +22,17 @@ a, p, label{
 /* Style Header */
 .header {
   background-color:white;
-  overflow: hidden;
   height: 60px;
-  margin-bottom: 0;
   border-bottom: solid 1px #dddddd;
-  width: 960px;
   margin: 0 auto; 
+  min-width: 960px;
  }
 
- 
+ .headerWrapper{
+   width: 960px;
+   margin: 0 auto;
+   background-color:white;
+ }
 
 /* Style the links inside the header */
 .header a {
