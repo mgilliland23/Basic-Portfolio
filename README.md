@@ -1,2 +1,2 @@
 # Basic-Portfolio
-Portfolio website
+A simple portfolio website
